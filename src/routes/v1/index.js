@@ -18,7 +18,6 @@ const devRoutes = [
     path: '/docs',
     route: docsRoute,
   },
-
 ];
 
 defaultRoutes.forEach((route) => {

@@ -59,5 +59,4 @@ const stateCodes = {
   WI: 'Wisconsin',
   WY: 'Wyoming',
 };
-
 module.exports = stateCodes;
