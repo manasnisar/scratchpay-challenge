@@ -3,7 +3,7 @@ const { clinicController } = require('../../controllers');
 
 const router = express.Router();
 
-router.post('/getClinics', clinicController.getClinics);
+router.get('/getClinics', clinicController.getClinics);
 
 module.exports = router;
 
@@ -16,7 +16,7 @@ module.exports = router;
 
 /**
  * @swagger
- * /clinic:
+ * /clinic/getClinics:
  *   get:
  *     summary: Get clinics
  *     description: Get clinics based on query

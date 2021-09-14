@@ -1,5 +1,5 @@
 const express = require('express');
-const authRoute = require('./clinic.route');
+const clinicRoute = require('./clinic.route');
 const docsRoute = require('./docs.route');
 const config = require('../../config/config');
 
@@ -8,7 +8,7 @@ const router = express.Router();
 const defaultRoutes = [
   {
     path: '/clinic',
-    route: authRoute,
+    route: clinicRoute,
   },
 ];
 
@@ -18,6 +18,7 @@ const devRoutes = [
     path: '/docs',
     route: docsRoute,
   },
+
 ];
 
 defaultRoutes.forEach((route) => {
