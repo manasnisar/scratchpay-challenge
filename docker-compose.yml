@@ -1,19 +1,19 @@
-version: '1'
+version: '3'
 
 services:
   node-app:
     build: .
     image: node-app
+    environment: 
+      - PORT=80
     ports:
       - '80:80'
-    depends_on:
-      - mongodb
     volumes:
       - .:/usr/src/node-app
     networks:
       - node-network
-    container_name: node-app-dev
-    command: yarn dev -L
+    container_name: node-app
+    command: yarn start
 
 networks:
   node-network:
