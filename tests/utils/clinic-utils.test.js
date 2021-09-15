@@ -1,4 +1,5 @@
-const { doesUserWant, compareAvailability } = require('../../../src/utils/clinic-utils.js');
+// eslint-disable-next-line import/extensions
+const { doesUserWant, compareAvailability } = require('../../src/utils/clinic-utils.js');
 
 describe('Clinic Utils', () => {
   describe('test compareAvailability', () => {

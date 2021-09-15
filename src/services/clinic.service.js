@@ -19,7 +19,6 @@ const getClinics = async (query) => {
   } catch (error) {
     throw new ApiError(httpStatus.NO_CONTENT, 'Clinics not found!');
   }
-
   const queryFields = Object.keys(query);
 
   clinics = clinics.filter((clinic) => {
