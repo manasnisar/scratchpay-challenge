@@ -202,7 +202,7 @@ describe('Clinic Utils', () => {
         },
       };
       const result = doesUserWant(query, queryFields, clinic);
-      expect(result).toEqual(false);
+      expect(result).toEqual(true);
     });
   });
 });
