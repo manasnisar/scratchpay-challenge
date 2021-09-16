@@ -1,7 +1,4 @@
 jobs:
-  jest/test:
-    context:
-      - npm
   deploy:
     executor: heroku/default
     steps:
