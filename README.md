@@ -24,7 +24,7 @@ Acceptance Criteria Match:
     Two main loops. One has the worst case complexity of O(3), that's the query fields. The other loop has a complexity of O(n)
 - Well test code
   - Unit and integration tested with Jest
-  ![Refer to assets/test-coverage.PNG](/assets/test-coverage.PNG)
+  ![Refer to assets/test-coverage.PNG](/assets/test-coverage.jpg)
 - Well documented code
   - Includes helpful inline documentation
   - GUI documentation for the API using SwaggerUI
