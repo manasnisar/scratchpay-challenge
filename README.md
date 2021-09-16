@@ -30,7 +30,8 @@ Acceptance Criteria Match:
   - GUI documentation for the API using SwaggerUI
 - CI/CD
   - CI/CD pipeline setup using CircleCI, if jest tests pass, the app is deployed to heroku
-  - [Have a look here](https://scratchpay-challenge.herokuapp.com/v1/docs/)
+  - [Live app here](https://scratchpay-challenge.herokuapp.com/v1/docs/)
+  ![Last successful build screenshot](/assets/ci-image.jpg)
 - Dockerized
   Project has been dockerized leveraging docker-compose
   
