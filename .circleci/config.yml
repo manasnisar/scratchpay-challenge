@@ -1,8 +1,26 @@
-# This config is equivalent to both the '.circleci/extended/orb-free.yml' and the base '.circleci/config.yml'
-version: 2.1
+jobs:
+  deploy:
+    executor: heroku/default
+    steps:
+      - checkout
+      - heroku/install
+      - run:
+          name: Run tests
+          command: test
+      - heroku/deploy-via-git
 orbs:
   heroku: circleci/heroku@0.0.10
+
+version: 2.1
 workflows:
   heroku_deploy:
     jobs:
-      - heroku/deploy-via-git
+      - deploy
+
+# version: 2.1
+# orbs:
+#   heroku: circleci/heroku@0.0.10
+# workflows:
+#   heroku_deploy:
+#     jobs:
+#       - heroku/deploy-via-git
