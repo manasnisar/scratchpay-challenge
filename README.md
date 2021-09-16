@@ -23,4 +23,4 @@ Acceptance Criteria Match:
     Two main loops. One has the worst case complexity of O(3), that the query fields. The other loop has a complexity of O(n)
 - Well test code
   - Unit and integration tested with Jest
-  ![Coverage Screenshot](https://photos.app.goo.gl/dNdGbEuVDHj6Eqky7)
+  ![Coverage Screenshot](assests/test-coverage.png)
