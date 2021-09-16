@@ -4,9 +4,6 @@ jobs:
     steps:
       - checkout
       - heroku/install
-      - run:
-          name: Run tests
-          command: run test
       - heroku/deploy-via-git
 orbs:
   heroku: circleci/heroku@0.0.10
@@ -14,14 +11,11 @@ orbs:
 
 version: 2.1
 workflows:
-  test:
-    jobs:
-      - jest/test:
-          context:
-            - npm
   heroku_deploy:
     jobs:
+      - jest/test
       - deploy
+
 # version: 2.1
 # orbs:
 #   heroku: circleci/heroku@0.0.10
