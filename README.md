@@ -40,9 +40,9 @@ Acceptance Criteria Match:
 How to use:
   - Clinics can be search based on name, state/state code and/or, availability
   - Heres how to use the params:
-    name (string) e.g "Mayo Clinic"
-    state (string) e.g "Florida" or "FL"
-    availability (string) e.g "from:09:00, to:17:00"
+    - name (string) e.g "Mayo Clinic"
+    - state (string) e.g "Florida" or "FL"
+    - availability (string) e.g "from:09:00, to:17:00"
   
 Notes:
   - I tried to avoid one liners for clarity, although I love using them
