@@ -9,8 +9,11 @@ const swaggerDef = {
   },
   servers: [
     {
-      url:  `${config.env === "production" ? "https://scratchpay-challenge.herokuapp.com" : "http://localhost:" + config.port }` + "/v1",
-    },,
+      url:
+        `${config.env === 'production' ? 'https://scratchpay-challenge.herokuapp.com' : 'http://localhost:' + config.port}` +
+        '/v1',
+    },
+    ,
   ],
 };
 
