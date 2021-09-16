@@ -34,6 +34,6 @@ Acceptance Criteria Match:
 - Dockerized
   Project has been dockerized leveraging docker-compose
   
-  Notes:
+Notes:
   - I tried to avoid one liners for clarity, although I love using them
   - So guys might see a bunch of if else statements, as i was trying to make the queries as easy as possible
