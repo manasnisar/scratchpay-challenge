@@ -31,6 +31,7 @@ Acceptance Criteria Match:
 - CI/CD
   - CI/CD pipeline setup using CircleCI, if jest tests pass, the app is deployed to heroku
   - [Live app here](https://scratchpay-challenge.herokuapp.com/v1/docs/)
+  - Last successful build screenshot
   ![Last successful build screenshot](/assets/ci-image.jpg)
 - Dockerized
   Project has been dockerized leveraging docker-compose
