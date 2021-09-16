@@ -21,7 +21,7 @@ components:
         availability:
           from: 09:00
           to: 17:00
-
+          
     Error:
       type: object
       properties:
