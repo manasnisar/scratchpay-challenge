@@ -37,6 +37,13 @@ Acceptance Criteria Match:
 - Dockerized
   Project has been dockerized leveraging docker-compose
   
+How to use:
+  - Clinics can be search based on name, state/state code and/or, availability
+  - Heres how to use the params:
+    name (string) e.g "Mayo Clinic"
+    state (string) e.g "Florida" or "FL"
+    availability (string) e.g "from:09:00, to:17:00"
+  
 Notes:
   - I tried to avoid one liners for clarity, although I love using them
   - So you guys might see a bunch of if else statements, as i was trying to make the queries as easy as possible
