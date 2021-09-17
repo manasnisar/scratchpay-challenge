@@ -28,7 +28,7 @@ Acceptance Criteria Match:
 - Well documented code
   - Includes helpful inline documentation
   - GUI documentation for the API using SwaggerUI
-  - You guys might need to run the app locally to look at the swaggerUi though, haven't set it up with the live app.
+  - You guys might need to run the app locally to look at the swaggerUi though, haven't set it up with the live app. It would be available on "/v1/docs" route
 - CI/CD
   - CI/CD pipeline setup using CircleCI, if jest tests pass, the app is deployed to heroku
   - [Live app here](https://scratchpay-challenge.herokuapp.com/v1/clinic/getClinics)
